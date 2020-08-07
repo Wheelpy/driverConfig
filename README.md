@@ -1,5 +1,5 @@
 # driverConfig
-
+```
 # node 14
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash 
 $ sudo apt-get install -y nodejs
@@ -10,6 +10,7 @@ wget https://github.com/mozilla/geckodriver/releases/download/v0.27.0/geckodrive
 && chmod +x geckodriver \
 && sudo mv geckodriver /usr/local/bin/ \
 && rm geckodriver*
+```
 
 Running Selenium with certain browser settings.
 
