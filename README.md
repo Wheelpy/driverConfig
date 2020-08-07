@@ -8,10 +8,19 @@ For that: go to terminal and write firefox -P
 
 Then create new profile and make some settings. For example i did some installations of addons like adblock. whatever.
 
-Then go to your firefox directory and find your crofile, then copy it to ur project directory and delete cash name at the beginning. 
+Then go to your firefox directory and find your profile, then copy it to ur project directory and delete cash name at the beginning. 
 
-Then in ur project folder open terminal and create package.json by writing npm init.
-The write code . in terminal and create index.js file.
+Then in ur project folder open terminal and create package.json by writing:
+```
+npm init
+```
+
+Then write code . in terminal and create index.js file.
+Create new terminal and install selenium by typing:
+
+```
+npm install selenium-webdriver
+```
 
 Put in the following script (it should work):
 (at the like options.setProfile("./") write the name of your firefox profile name, mine is SeleniumTutorial)
@@ -27,5 +36,10 @@ const driver = new Builder().forBrowser("firefox").setFirefoxOptions(options).bu
 
 driver.get("http://google.com");
 ```
+
+Then run the script by writing 
+```
+node index
+``
 
 
