@@ -7,3 +7,4 @@ options.setProfile("./SeleniumTutorial");
 const driver = new Builder().forBrowser("firefox").setFirefoxOptions(options).build();
 
 driver.get("http://google.com");
+
