@@ -40,6 +40,6 @@ driver.get("http://google.com");
 Then run the script by writing 
 ```
 node index
-``
+```
 
 
